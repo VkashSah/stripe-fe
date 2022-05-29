@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <StripeCheckout
-        stripeKey="pk_test_hysuUu3LXxL5kAImR3ayLJkb00H1CKNAE4"
+        stripeKey=""
         token={makePayment}
         name="Freight Genie"
         planId="123"
